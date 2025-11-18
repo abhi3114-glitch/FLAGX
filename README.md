@@ -203,4 +203,3 @@ See [Python SDK Documentation](python-sdk/README.md) for usage examples.
 
 ---
 
-**Built with ❤️ for modern feature flag management**
