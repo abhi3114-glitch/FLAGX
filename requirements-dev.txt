@@ -1,0 +1,25 @@
+# Development Dependencies
+-r requirements.txt
+
+# Development Tools
+ipython==8.18.1
+jupyter==1.0.0
+notebook==7.0.6
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+sphinx-autodoc-typehints==1.25.2
+
+# Pre-commit Hooks
+pre-commit==3.6.0
+
+# Performance Profiling
+py-spy==0.3.14
+memory-profiler==0.61.0
+
+# Database Migrations (if needed)
+alembic==1.13.1
+
+# API Documentation
+flasgger==0.9.7.1

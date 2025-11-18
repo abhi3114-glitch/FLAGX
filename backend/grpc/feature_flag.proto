@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package featureflag;
+
+service FeatureFlagService {
+  rpc EvaluateFlag (EvaluateRequest) returns (EvaluateResponse);
+  rpc GetFlag (GetFlagRequest) returns (FlagResponse);
+}
+
+message EvaluateRequest {
+  string flag_id = 1;
+  string user_id = 2;
+  string context = 3;
+}
+
+message EvaluateResponse {
+  bool enabled = 1;
+  string reason = 2;
+}
+
+message GetFlagRequest {
+  string flag_id = 1;
+}
+
+message FlagResponse {
+  string id = 1;
+  string name = 2;
+  string description = 3;
+  bool enabled = 4;
+  string environment = 5;
+  string rules = 6;
+}
