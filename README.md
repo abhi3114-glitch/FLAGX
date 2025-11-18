@@ -191,7 +191,7 @@ See [Python SDK Documentation](python-sdk/README.md) for usage examples.
 
 ##  Roadmap
 
-- [x] Python SDK
+- [x] Python SDK 
 - [ ] Multi-tenancy support
 - [ ] Advanced A/B testing framework
 - [ ] Machine learning-based rollout optimization
