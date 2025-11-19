@@ -1,0 +1,11 @@
+# Core Dependencies
+requests>=2.31.0
+websocket-client>=1.6.4
+
+# gRPC Support
+grpcio>=1.59.3
+grpcio-tools>=1.59.3
+protobuf>=4.25.1
+
+# Utilities
+python-dotenv>=1.0.0
